@@ -1,7 +1,7 @@
 output_file="results.txt"
 echo "num_rob_entries num_phys_int_regs num_iq_entries nss NCRB NIRL IIR ICRR ROB CMR" > $output_file
 
-gem5_command="$GEM5/build/ARM/gem5.opt OoO_cpu.py -c /project/linuxlab/gem5/test_progs/daxpy/daxpy_arm_big --cpu-type=DerivO3CPU --caches --l2cache"
+gem5_command="$GEM5/build/ARM/gem5.opt OoO_cpu.py -c daxpy_arm_test --cpu-type=DerivO3CPU --caches --l2cache"
 
 num_rob_entries_values=(4 16 64 256)
 num_phys_int_regs_values=(64 256 1024)
