@@ -19,5 +19,5 @@ $GEM5/build/ARM/gem5.opt OoO_cpu.py -c daxpy_arm_test --cpu-type="DerivO3CPU" --
 ./auto.sh
 ```
 
-# Analyze
+# Analyzation
 You can analyze the result with `Visualization.ipynb`, plot some figures.
