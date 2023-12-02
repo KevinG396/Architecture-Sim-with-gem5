@@ -20,5 +20,5 @@ Then:
 source ~/.bash profile
 ```
 
-# Projects Usage
+# Projects Details
 Each project has its own README.md in the folder.
