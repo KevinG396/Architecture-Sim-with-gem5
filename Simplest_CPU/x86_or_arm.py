@@ -61,7 +61,7 @@ system.mem_ctrl.port = system.membus.master
 
 # Create a process (Another SimObject)
 process = Process()
-apps_path = "/project/linuxlab/gem5/test_progs/"
+apps_path = "/test_progs/"
 if program == "daxpy" and isa == "x86":
     process.cmd = [apps_path + '/daxpy/daxpy_x86']
 elif program == "daxpy" and isa == "arm":
