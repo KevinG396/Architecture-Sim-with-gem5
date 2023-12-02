@@ -22,7 +22,6 @@ source ~/.bash profile
 
 # Test Programs
 Before started, you should compile `daxpy.c` to `daxpy_x86` and `daxpy_arm` with gcc tool in `/test_prog/daxpy` folder.
- All simulations related to `queens` do not exist so far, you can skip them.
 
 # Projects Details
 Each project has its own README.md in the folder.
