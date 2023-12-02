@@ -4,7 +4,7 @@
 
 # Usage
 #### Run:
-'''
+"""
 $GEM5/build/ARM/gem5.opt --outdir="queens_tournament" cpu_bp.py --prog="queens" --bp="TournamentBP" --bp_size="8192" --bp_bits="2" 
-'''
+"""
 #### You can change bp, bp_size, bp_bits three parameters and record CPI and other metrics.
