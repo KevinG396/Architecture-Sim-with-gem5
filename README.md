@@ -1,7 +1,7 @@
 # gem5_basic
 Basic simulations of in-order/out-of-order execution CPUs, with/without Branch Prediction, Caches(L1, L2).
 
-# Envronment
+# Environment
 In Linux System, set GEM5 env_path:
 If using tcsh, open .cshrc in your home directory and add:
 ```
