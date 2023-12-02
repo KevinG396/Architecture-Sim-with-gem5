@@ -1,6 +1,6 @@
 # gem5_basic
 Basic simulations of in-order/out-of-order execution CPUs, with/without Branch Prediction, Caches(L1, L2).
-Remark: `OoO_cpu.py` file in Out_of_Order_CPU sub-project used existing python file from gem5 project.
+### Remark: `OoO_cpu.py` file in Out_of_Order_CPU sub-project used existing python file from gem5 project.
 
 # Envronment
 In Linux System, set GEM5 env_path:
